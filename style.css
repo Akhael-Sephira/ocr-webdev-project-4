@@ -7,6 +7,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#skip_to_main {
+    position: absolute;
+    z-index: 99;
+    background-color: #F3976C;
+    color: #212121;
+    padding: .5em 1em;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    transform: translateY(-200%);
+}
+#skip_to_main:focus {
+    transform: translateY(0%);
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
