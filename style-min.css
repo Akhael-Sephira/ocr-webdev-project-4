@@ -389,6 +389,10 @@ p {
 p {
   font-size: 0.75em;
 }
+.footer-nav a {
+    padding: 5px;
+    display: inline-block;
+}
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto;
